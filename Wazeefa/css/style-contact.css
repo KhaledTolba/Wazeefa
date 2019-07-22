@@ -1,0 +1,121 @@
+body{
+    margin: 0px;
+    font-family: "cairo";
+
+}
+
+.container{
+    width:70%;
+    margin:auto
+}
+
+/*----------- start navbar ----------*/
+
+.navbar{
+    overflow:hidden;
+    background:rgb(3, 20, 49);
+    top: 0;
+    width: 100%;
+    height: 90px;
+    color: white
+}
+
+.navbar img{
+    padding:25px;
+    height: 55px;
+}
+.navbar ul{
+    padding-left: 0px;
+    list-style: none;
+    overflow:hidden;
+    float: right
+}
+
+.navbar ul li{
+    /*background-color:rgba(250,250,250,0.5);*/
+    padding: 5px;
+    float:left
+}
+
+.navbar ul .about{
+    
+    background-color:rgba(250, 250, 250, 1);
+    padding: 5px;
+    float:left;
+    height: auto;
+}
+
+.navbar ul li #as4{
+    color:#000000;
+}
+.navbar ul li #as5{
+    color:#000000;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color:#ffffff;
+    font-weight:normal;
+    font-size: 20px
+}
+.navbar ul .about:hover{background-color:rgba(250,250,250,0.9)}
+.navbar ul li a:hover{color:dodgerblue}
+.navbar ul li #as5:hover{color: dodgerblue}
+.navbar ul li #as4:hover{color: dodgerblue}
+
+/*---------- End navbar -----------*/
+
+
+
+
+/*---------- start form -----------*/
+.contact{
+    
+}
+.contact h1{
+    text-align: center;
+}
+.contact table tr td button{
+    background-color: #31BA31;
+    border:none;
+    height: 30px;
+    width: 70px;
+    color: #ffffff;
+    font-size: 18px;
+}
+/*---------- end form -----------*/
+
+
+
+
+
+
+
+
+/* ---------------------Start Follow ---------- */
+.follow {
+    
+    background: #031431;
+    height:180px;
+    color:#fff
+}
+
+.follow .f1{
+    padding:50px;
+    float:left
+}
+.follow .f1 img{
+    height: 55px;
+}
+.follow .f1 h1 span{color:crimson}
+
+.follow .f2{
+    float:left:
+}
+.follow .f2 img{
+    padding:5px;
+    padding-left:20px;
+    width:auto;
+    height:25px
+}
+/* --------------------------End Follow ----------- */

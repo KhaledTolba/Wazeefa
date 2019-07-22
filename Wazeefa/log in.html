@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Log In - WAZEEFA</title>
+        <link rel="stylesheet" href="css/style-login.css">
+
+    </head>
+    <body>
+        
+<!-- start Navbar -->
+        
+        <div class="navbar" id="nav">
+            <div class="container">
+                <a href="Home.html">
+                    <img src="sources/123w.png" />
+                </a>
+                <ul>
+                    <li><a href="search.html" id="as1">Search</a></li>
+                    <li><a href="Signup.html" id="as2">Signup</a></li>
+                    <li><a href="log%20in.html" id="as3">Login</a></li>
+                    <li id="l4" class="about"><a  href="contact%20us.html" id="as4">Contact us</a></li>
+                    <li id="l5" class="about"><a  href="About.html" id="as5">About us</a></li>
+                </ul>
+            </div>
+            
+        </div>
+        
+<!-- End Navbar -->
+
+
+
+
+<!-- start finder -->
+		
+		<div class="container">
+			<div class="log">
+                <center>
+					<br>
+					<br>
+					<br>
+					<br>
+					<form>
+						<table align=center>
+							<tr>
+								<td>User name</td>
+								<td>
+									<input type="username" id="userName" value="Enter your name" onfocus="fun1()" onblur="fun2()" Required> 
+									<img id="error" style="width:15px" />
+								</td>
+							</tr>
+							<tr>
+								<td>Password</td>
+								<td>
+									<input type="password" id="pass" Required>
+								</td>
+							</tr>
+							<br>
+							<tr>
+								<td colspan=2 align=center>
+									<input type="checkbox" id="chk"> Remember me<br>
+									<button type="submit" value="log in" class="ssuu" id="su" onclick="setLocalStorage();">Submit</button>
+								</td>
+							</tr>
+						</table>
+					</form>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+					
+						
+					<script>
+						function fun1()
+						{
+							var u = document.getElementById("userName");
+							if(u.value=="Enter your name")
+								u.value="";
+						}
+						function fun2()
+						{
+							var u = document.getElementById("userName");
+							if(u.value=="")
+							{
+								u.value="Enter your name";
+							}
+							else
+							{
+								var x= String(u.value);
+								var e=document.getElementById("error");
+								if(x.length<=3)
+								{
+									e.src="sources/notvalid.png";
+								}
+								else
+								{
+									e.src="sources/valid.png";
+								}
+							}
+							
+						}
+						function setLocalStorage()
+						{
+							
+							if(document.getElementById("chk").checked = true) 
+							{
+								localStorage.user = document.getElementById("userName").value;
+								localStorage["pass"] = document.getElementById("pass").value;
+								alert("Data saved");
+							}
+							else 
+							{
+								alert("Sorry no web");
+							}
+							function getLocalStorage() 
+							{
+								if (localStorage.user) 
+								{
+									document.getElementById("userName").value=localStorage.user;
+								} 
+								
+								if (localStorage.age) 
+								{
+									document.getElementById("pass").value=localStorage["pass"];
+								} 
+							}
+						}
+					</script>
+
+				</center>
+            </div>
+        </div>
+<!-- end finder -->
+
+
+
+
+<!-- Start follow -->
+     <div class="follow">
+        <div class="container">
+            <div class="f1">
+                <a href="Home.html">
+                    <img src="sources/123w.png"/>
+                </a>
+            </div>
+            <div class="f2">
+                <center>
+                    <br/>
+                    <a href="https://www.facebook.com" target="_blank"><img src="sources/face2-white.png" /></a>
+                    <a href="https://www.twitter.com" target="_blank"><img src="sources/twit2-white.png" /></a>
+                    <a href="https://www.linkedin.com" target="_blank"><img src="sources/link2-white.png" /></a>
+                    <br/>
+                
+                    © 2019 WAZEEFA. All Rights Reserved. Owned by TeamSoft.
+                </center>
+            </div>
+        </div>
+     </div>   
+        
+<!-- End follow -->
+    </body>
+</html>

@@ -1,0 +1,156 @@
+body{
+    margin: 0px;
+    font-family: "cairo";
+}
+
+.container{
+    width:70%;
+    margin:auto
+}
+
+/*----------- start navbar ----------*/
+
+.navbar{
+    overflow:hidden;
+    background:rgba(3, 20, 49, 0);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 12%;
+    display= "block";
+    transition= "top 0.3s";
+}
+
+.navbar h1{float: left}
+
+.navbar h1 span{color:crimson}
+
+.navbar img{
+    padding:25px;
+    height: 55px;
+}
+.navbar ul{
+    padding-left: 0px;
+    list-style: none;
+    overflow:hidden;
+    float: right
+}
+
+.navbar ul li{
+    background-color:rgba(250,250,250,0.5);
+    padding: 5px;
+    float:left
+}
+.navbar ul .about{
+    
+    background-color:rgba(3, 20, 49, 0.5);
+}
+
+.navbar ul li #as4{
+    color:#ffffff;
+}
+.navbar ul li #as5{
+    color:#ffffff;
+}
+
+
+
+.navbar ul li a{
+    text-decoration: none;
+    color:#000000;
+    font-weight:normal;
+    font-size: 20px
+}
+
+/*---------- End navbar -----------*/
+
+
+
+
+/* Start Slider */ 
+.slider{
+    max-height: 500px;
+    overflow: hidden
+}
+.slider img{
+    width:100%;
+    height:auto
+}
+/* End Slider */
+
+
+
+
+/* start Companies */
+.companies h2{
+    
+    font-family: "cairo";
+    font-size: 60px;
+}
+/* End Companies */
+
+
+
+
+
+/* Start Latest job */
+.latest{
+    padding:50x;
+    height:500px
+}
+/* End Latest job */
+
+
+
+
+
+/* Start Features */
+.features{
+    background-color: dodgerblue;
+    padding-top: 30px;
+    height:500px;
+    overflow:hidden
+}
+
+.features .feat{
+    width:33.3333%;
+    float: left;
+    height: 400px
+}
+/* End Features */
+
+
+
+
+
+
+
+/* Start Follow */
+.follow {
+    
+    background: #031431;
+    height:180px;
+    color:#fff
+}
+
+.follow .f1{
+    padding:50px;
+    float:left
+}
+.follow .f1 img{
+    height: 55px;
+}
+.follow .f1 h1 span{color:crimson}
+
+.follow .f2{
+    float:left:
+}
+.follow .f2 img{
+    padding:5px;
+    padding-left:20px;
+    width:auto;
+    height:25px
+}
+
+
+/* End Follow */

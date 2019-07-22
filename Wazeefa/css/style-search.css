@@ -1,0 +1,159 @@
+body{
+    margin: 0px;
+    font-family: "cairo";
+
+}
+
+.container{
+    width:70%;
+    margin:auto
+}
+
+/*----------- start navbar ----------*/
+
+.navbar{
+    overflow:hidden;
+    background:rgb(3, 20, 49);
+    top: 0;
+    width: 100%;
+    height: 90px;
+    color: white
+}
+
+.navbar img{
+    padding:25px;
+    height: 55px;
+}
+.navbar ul{
+    padding-left: 0px;
+    list-style: none;
+    overflow:hidden;
+    float: right
+}
+
+.navbar ul li{
+    /*background-color:rgba(250,250,250,0.5);*/
+    padding: 5px;
+    float:left
+}
+
+.navbar ul .about{
+    
+    background-color:rgba(250, 250, 250, 1);
+    padding: 5px;
+    float:left;
+    height: auto;
+}
+
+.navbar ul li #as4{
+    color:#000000;
+}
+.navbar ul li #as5{
+    color:#000000;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color:#ffffff;
+    font-weight:normal;
+    font-size: 20px
+}
+.navbar ul .about:hover{background-color:rgba(250,250,250,0.9)}
+.navbar ul li a:hover{color:dodgerblue}
+.navbar ul li #as5:hover{color: dodgerblue}
+.navbar ul li #as4:hover{color: dodgerblue}
+
+/*---------- End navbar -----------*/
+
+
+
+
+/*--------- start finder --------*/
+.finder {
+    padding: 20px;
+    
+}
+.finder img{
+    height: 30px;
+}
+.finder .b1{
+    margin:5px;
+    background-color: white;
+    border:none;
+}
+.finder input{
+    font-size: 20px;
+    margin: 2px;
+    width:70%;
+    border: 1px solid #ddddd0;
+    height: 40px;
+}
+
+.finder .b1:hover{
+    background-color:beige;
+    cursor: pointer
+}
+/*--------- end finder --------*/
+
+
+
+/*--------- Start list --------*/
+.list{
+    height:500px;
+}
+.list table{
+    table-layout: fixed;
+    /*border: 1px solid #000;*/
+    width:100%
+}
+tr,td{
+    padding:10px;
+    text-align: center;
+}
+.list table .r{
+    width:90%
+}
+.list table .l{
+    width:10%
+}
+.list table .l button{
+    background-color: #31BA31;
+    border:none;
+    height: 30px;
+    width: 70px;
+    color: #ffffff;
+    font-size: 18px;
+}
+.list table .l button:hover{
+    cursor: pointer
+}
+/*--------- End list --------*/
+
+
+/* ---------------------Start Follow ---------- */
+.follow {
+    
+    background: #031431;
+    height:180px;
+    color:#fff
+}
+
+.follow .f1{
+    padding:50px;
+    float:left
+}
+.follow .f1 img{
+    height: 55px;
+}
+.follow .f1 h1 span{color:crimson}
+
+.follow .f2{
+    float:left:
+}
+.follow .f2 img{
+    padding:5px;
+    padding-left:20px;
+    width:auto;
+    height:25px
+}
+/* --------------------------End Follow ----------- */
